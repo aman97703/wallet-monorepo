@@ -3,7 +3,8 @@ name: Build and Deploy to Docker Hub
 on:
   push:
     branches:
-      - master
+      - main
+      - staging
 
 jobs:
   build-and-push:
